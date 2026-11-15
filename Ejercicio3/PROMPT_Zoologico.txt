@@ -1,0 +1,25 @@
+RETO: SIMULADOR DE ZOOLOGICO
+
+CONTEXTO:
+Se utiliza Java 21 en la ide intellijeid, sin paquetes adicionales. Es una tarea de MPOO, Facultad de Ingenieria UNAM. Todo se ejecuta en consola, sin package.
+
+OBJETIVO:
+Crear un simulador de zoologico donde decenas de animales compartan una interfaz comun y se administren dinamicamente mediante colecciones.
+
+RESTRICCIONES
+Animal es una interfaz con el metodo hacerSonido().
+Cada clase de animal implementa Animal con implements y @Override.
+Los animales se guardan en una coleccion ArrayList de tipo Animal, con minimo 20 animales de 4 tipos distintos creados con un ciclo.
+Se agregan y se quitan animales de la coleccion mientras corre el programa.
+Los animales se recorren con un for-each que llama a hacerSonido() de la misma forma para todos.
+Nombres de clases, atributos y metodos en español.
+Quiero que todas las explicaciones, correcciones, ejemplos y soluciones de programacion se mantengan unicamente dentro de los temas que hemos visto hasta ahora en el curso: clases y objetos, constructores, String, if-else, switch, ciclos, for-each, ArrayList, herencia, polimorfismo, clases abstractas e interfaces.
+
+CRITERIOS DE EXITO
+Debe compilar sin errores ni advertencias.
+Cada animal responde con su propio sonido y el total de animales cambia al agregar o quitar.
+
+FORMATO DE RESPUESTA
+Archivos .java: Animal.java, una clase por cada tipo de animal y Main.java
+Codigo sin comentarios ni javadoc
+Al final una explicacion corta de donde se usa el polimorfismo.
